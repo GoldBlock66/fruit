@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+.note{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0 0 5px gray;
+    margin: 20px;
+    font-size: 20px;
+    resize: none;
+    outline: none;
+}
+
+.title{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app{
+    display: flex;
+}
+
+
+.plus{
+    width: 340px;
+    height: 290px;
+    font-size: 75px;
+    text-align: center;
+    line-height: 290px;
+    background-color: yellow;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    margin: 20px;
+    border-radius: 20px;
+    transition: transform 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.plus:hover{
+    transform: scale(1.1);
+    transition: transform 0.15s ease-in-out;
+}
